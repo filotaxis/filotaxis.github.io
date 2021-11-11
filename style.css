@@ -27,17 +27,94 @@ nav>ul {
 
 nav>ul>li>a{
     text-decoration: none;
+    color: #1c343d;
+}
+
+nav>ul>li>a:hover{
+    text-decoration: underline;
+    color: #ff595e;
+}
+
+
+.about{
+    background-color: #1c343d;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.front{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%; 
+    margin: 0 auto;
+    height: 90%;
+}
+
+.hello{
+    color: #d8f3dc;
+}
+
+.profile-pic>img{
+    width: 18rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contact{
+    color: #d8f3dc;
+    font-size: 1rem;
+    padding: 0 3rem;
+    height: 5%;
+}
+
+
+.contact>p>a{
+    color: #ff595e;
     font-weight: 700;
+}
+
+.contact>p>a:hover{
+    color: #06d6a0;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
-.about {
+.hello>p{
+    font-size: 2rem;
+    margin: 0;
+    width: 60%;
+    text-align: center;
+}
+
+.hello>p>span{
+    font-weight: 700;
+    color: #06d6a0;
+}
+
+.hello>.greetings{
+    font-size: 5rem;
+    color: #06d6a0;
+    /* font-weight: 700; */
+}
+
+/* .about {
     background-color: #1c343d;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 95%;
+    height: 65%;
 }
 .hello{
     display: flex;
@@ -45,7 +122,22 @@ nav>ul>li>a{
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 2.5rem;
+    height: 100%;
+}
+
+.contact{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
 }
 
 .greetings{
@@ -53,12 +145,12 @@ nav>ul>li>a{
     padding: 0 0 0 1rem;
 }
 
-.hello>p {
+.hello>div>p {
     color: #d8f3dc;
     margin: 0;
 }
-.hello>p>span {
-    color: #83c5be;
+.hello>div>p>span {
+    color: #06d6a0;
 }
 .profile-pic{
     display: flex;
@@ -71,4 +163,4 @@ nav>ul>li>a{
     height: auto;
     /* margin: 5rem 0; */
     padding: 0;
-}
+} */
