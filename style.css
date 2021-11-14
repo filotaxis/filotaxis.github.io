@@ -105,16 +105,16 @@ nav>ul>li>a:hover {
 }
 
 
-.contact>p>a {
+.social-media>p>a {
     color: #ff595e;
     font-weight: 700;
 }
 
-.contact>p>a:hover {
+.social-media>p>a:hover {
     color: #06d6a0;
 }
 
-.contact{
+.social-media{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -124,12 +124,12 @@ nav>ul>li>a:hover {
     /* background-color: red; */
 }
 
-.contact>a>i{
+.social-media>a>i{
     font-size: 2.5rem;
     color: #a7eeb1;
 }
 
-.contact>a>i:hover{
+.social-media>a>i:hover{
     color: #ff595e;
 }
 /* project section */
@@ -185,4 +185,33 @@ nav>ul>li>a:hover {
     color: #c7f9cc;
     height: 10rem;
 
+}
+
+/* contact section  */
+
+.contact{
+    background-color: #52b788;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-filo{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 1rem;
+    background-color: cornsilk;
+}
+
+.why-filo>img{
+    width: 10rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.why-filo>div{
+    padding: 1rem;
 }
