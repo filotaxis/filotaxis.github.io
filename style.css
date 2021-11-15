@@ -1,217 +1,92 @@
-body,
-html {
-    margin: 0;
+*{
+    margin: 0; 
     padding: 0;
-    height: 100vh;
     font-family: 'Monoton', cursive;
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5%;
-    background-color: #d8f3dc;
-    font-size: 1.5rem;
-}
-
-nav>ul {
-    width: 50%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav>ul>li>a {
-    text-decoration: none;
-    color: #1c343d;
-}
-
-nav>ul>li>a:hover {
-    text-decoration: underline;
-    color: #ff595e;
-}
-
-
-.about {
-    background-color: #1c343d;
-    height: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.front {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 80%;
-    margin: 0 auto;
-    height: 90%;
-}
-
-.hello {
-    color: #d8f3dc;
-}
-
-.profile-pic{
-    /* max-width: 50%; */
-    display: flex;
-    justify-content: center;
-}
-
-.profile-pic>img {
-    max-width: 35%;
-    height: auto;
-    border-radius: 50%;
-}
-
-
-.hello {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.hello>p {
-    font-size: 3.5vw;
-    margin: 0;
-    width: 90%;
-    text-align: center;
-}
-
-.hello>p>span {
-    font-weight: 700;
-    color: #06d6a0;
-}
-
-.hello>.greetings {
-    font-size: 7vw;
-    color: #06d6a0;
-
-}
-
-.hello>.greetings>img{
-    margin: 0;
-    padding: 0;
-    width: 5vw;
-}
-
-
-.social-media>p>a {
-    color: #ff595e;
-    font-weight: 700;
-}
-
-.social-media>p>a:hover {
-    color: #06d6a0;
-}
-
-.social-media{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 20%;
-    gap: 1rem;
-    /* background-color: red; */
-}
-
-.social-media>a>i{
-    font-size: 2.5rem;
-    color: #a7eeb1;
-}
-
-.social-media>a>i:hover{
-    color: #ff595e;
-}
-/* project section */
-.projects {
-    background-color: #006d77;
-    /* height: 90%; */
-}
-
-.projects>.project-title {
-    margin: 0;
-    padding: 2rem 0;
-    color: #c7f9cc;
-    text-align: center;
-    font-size: 4rem;
-}
-
-.showcase {
-    width: 90%;
-    margin: 0 auto;
-    /* height: 90%; */
-    display: grid;
-    grid-gap: 2rem;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
-.showcase>a{
-    text-decoration: none;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 20rem;
-    height: 30rem;
-    padding: 0;
-    margin: 9;
-    /* border-radius: 5rem; */
-
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-}
-
-.card>img {
-    width: 20rem;
-}
-
-.container {
-    padding: 2px 16px;
-    background-color: #1c343d;
-    color: #c7f9cc;
-    height: 10rem;
-
-}
-
-/* contact section  */
-
-.contact{
-    background-color: #52b788;
+.home{
     height: 100vh;
+    background-color: #363635;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.why-filo{
-    width: 50%;
-    margin: 0 auto;
+.landing{
+    height: 80%;
+    border: 2px solid red;
     display: flex;
-    border-radius: 1rem;
-    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.why-filo>img{
-    width: 10rem;
-    height: auto;
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    height: 70%;
+    width: 80%;
+}
+
+.hello>p:nth-child(1){
+    color: #d8f3dc;
+    font-size: 1.8rem;
+}
+
+.hello>p:nth-child(3){
+    color: #67b99a;
+    font-size: 1.5rem;
+    margin: 0 0 15% 0;
+}
+
+.hello>p:nth-child(4){
+    width: 80%;
+    color: #fefae0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.hello>.name{
+    color: #fefae0;
+    font-size: 3rem;
+    text-align: center;
     margin: 1rem;
-    border-radius: 1rem;
 }
 
-.why-filo>div{
-    padding: 1rem;
+.say-hi{
+    height: 30%;
+    border: 2px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.say-hi>a{
+    width: 30%;
+    font-size: 1.2rem;
+    color: #67b99a;
+    border: 2px solid #67b99a;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.say-hi>a:hover{
+    background-color: #67b99a;
+    color: #363635;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .landing{
+    background-color: blue;
+
+    }
 }
