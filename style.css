@@ -184,7 +184,7 @@ h2{
 
 .card {
     position: relative;
-    width: 80%;
+    width: 100%;
 }
 
 .card>a>img {
@@ -287,12 +287,81 @@ footer>p>a:hover{
 
 @media only screen and (min-width: 768px) {
 
-    /* .landing{
-        background-color: blue; 
+    .hello>p:nth-child(1){
+        font-size: 3rem;
+    }
 
-    } */
+    .hello>p:nth-child(3){
+        font-size: 2rem;
+    }
+
+    .hello>p:nth-child(4){
+        color: #d8f3dc;
+        font-size: 2rem;
+    }
+
+    .hello>.name{
+        font-size: 6rem;
+    }
+
+    .say-hi>a{
+        font-size: 2rem;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 1.5rem 0;
+    }
+
+    .description{
+        font-size: 2rem;
+        text-align: justify;
+        width: 70%;
+    }
+    
+    .resume>a{
+        font-size: 2rem;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+        margin: 8rem 0;
+    }
+
+    .resume>a:hover{
+        background-color: #67b99a;
+        color: #363635;
+    }
+
+    .showcase{
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    }
 
     .picture{
     width: 30%;
     }
+
+
+    .social>div{
+        width: 50%;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .social-media{
+        width: 50%;
+        margin: 3rem auto;
+    }
+
+    .social-media>a{
+        font-size: 3rem;
+    }
+
+    footer>p{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+
 }
