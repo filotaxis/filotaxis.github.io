@@ -250,6 +250,7 @@ h2{
     justify-content: space-around;
     margin: 0 auto;
     width: 80%;
+    margin: 2rem auto;
 }
 
 .social-media>a{
@@ -262,6 +263,26 @@ h2{
     color: #ff6b6b;
 }
 
+footer>p{
+    background-color: #67b99a;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer>p>i{
+    background-color: #67b99a;
+}
+
+footer>p>a{
+    background-color: #67b99a;
+    text-decoration: none;
+    color: #fefae0;
+    font-weight: 700;
+}
+
+footer>p>a:hover{
+    color: #ff6b6b;
+}
 
 
 @media only screen and (min-width: 768px) {
