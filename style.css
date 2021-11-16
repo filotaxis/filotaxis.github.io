@@ -227,6 +227,43 @@ h2{
     font-size: 1.2rem;
 }
 
+
+/* social section */
+.social>div{
+    width: 80%;
+    margin: 0 auto;
+    color: #fefae0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.social>div>p{
+    margin: 1rem 0 2rem 0;
+}
+
+.say-hi{
+    margin: 0 0 2rem 0;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.social-media>a{
+    color: #67b99a;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.social-media>a:hover{
+    color: #ff6b6b;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 
     /* .landing{
