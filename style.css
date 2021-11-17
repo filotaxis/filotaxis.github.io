@@ -27,6 +27,10 @@ nav{
     align-items: center;
 }
 
+.image-filo{
+    display: none;
+}
+
 .hello{
     display: flex;
     flex-direction: column;
@@ -321,9 +325,23 @@ footer>p>a:hover{
         color: #ff6b6b;
         text-decoration: overline;
     }
+
+    .home{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image-filo{
+        display: block;
+    }
+
+    .image-filo>img{
+        width: 80%;
+        height: auto;
+    }
  
     .hello>p:nth-child(1){
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .hello>p:nth-child(3){
@@ -394,12 +412,9 @@ footer>p>a:hover{
     }
 
     footer>p{
-        font-size: 1.5rem;
-        font-weight: 700;
+        font-size: 1.5rem; 
     }
 
-    canvas {
-        display: block;
-    }
+ 
 
 }
