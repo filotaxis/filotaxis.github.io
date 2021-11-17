@@ -336,7 +336,7 @@ footer>p>a:hover{
     }
 
     .image-filo>img{
-        width: 80%;
+        width: 90%;
         height: auto;
     }
 
@@ -353,25 +353,24 @@ footer>p>a:hover{
         height: auto;
 
     }
- 
+
     .hello>p:nth-child(1){
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 0;
     }
 
     .hello>p:nth-child(3){
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 1rem;
     }
 
     .hello>p:nth-child(4){
         color: #d8f3dc;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hello>.name{
-        font-size: 6rem;
-        /* display: flex; */
+        font-size: 4rem;
         gap: 1rem;
     }
 
@@ -443,6 +442,26 @@ footer>p>a:hover{
             display: flex;
             gap: 1rem;
         }
+
+         
+    .hello>p:nth-child(1){
+        font-size: 2rem;
+    }
+
+    .hello>p:nth-child(3){
+        font-size: 2rem;
+    }
+
+    .hello>p:nth-child(4){
+        color: #d8f3dc;
+        font-size: 2rem;
+    }
+
+    .hello>.name{
+        font-size: 6rem;
+        gap: 1rem;
+    }
+    
 }
 
 
