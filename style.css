@@ -329,23 +329,42 @@ footer>p>a:hover{
     .home{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .image-filo{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     .image-filo>img{
         width: 80%;
         height: auto;
     }
+
+    .landing{
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hello{
+        height: auto;
+
+    }
+    .say-hi{
+        height: auto;
+
+    }
  
     .hello>p:nth-child(1){
         font-size: 2rem;
+        margin: 0;
     }
 
     .hello>p:nth-child(3){
         font-size: 2rem;
+        margin: 1rem;
     }
 
     .hello>p:nth-child(4){
@@ -355,7 +374,7 @@ footer>p>a:hover{
 
     .hello>.name{
         font-size: 6rem;
-        display: flex;
+        /* display: flex; */
         gap: 1rem;
     }
 
@@ -417,6 +436,16 @@ footer>p>a:hover{
         font-size: 1.5rem; 
     }
 
- 
-
 }
+
+
+@media only screen and (min-width: 1366px) {
+
+    .hello>.name{
+            font-size: 6rem;
+            /* display: flex; */
+            gap: 1rem;
+        }
+}
+
+
