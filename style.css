@@ -6,8 +6,13 @@
     background-color: #272727;
 }
 
+
+nav{
+    display: none;
+}
+
 /* landing page */
-.home{
+#home{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -81,13 +86,13 @@
 }
 
 /* about me section */
-.about-me{
+#about-me{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-me>div{
+#about-me>div{
     width: 80%;
 }
 
@@ -156,7 +161,7 @@ h2{
 }
 
 /* projects section */
-.projects{
+#projects{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +173,7 @@ h2{
     color: #67b99a;
 } */
 
-.projects>div{
+#projects>div{
     width: 90%;
 }
 
@@ -229,7 +234,7 @@ h2{
 
 
 /* social section */
-.social>div{
+#social>div{
     width: 80%;
     margin: 0 auto;
     color: #fefae0;
@@ -237,7 +242,7 @@ h2{
     text-align: center;
 }
 
-.social>div>p{
+#social>div>p{
     margin: 1rem 0 2rem 0;
 }
 
@@ -287,6 +292,36 @@ footer>p>a:hover{
 
 @media only screen and (min-width: 768px) {
 
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* border: 2px solid red; */
+        font-size: 1.5rem;
+    }
+
+    nav>ul{
+        /* border: 2px solid green; */
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        color: #67b99a;
+        list-style-type: none;
+        gap: 1rem;
+    }
+
+
+    nav>ul>li>a{
+        color: #67b99a;
+        text-decoration: none;    
+    }
+
+    nav>ul>li>a:hover{
+        color: #ff6b6b;
+        text-decoration: overline;
+    }
+ 
     .hello>p:nth-child(1){
         font-size: 3rem;
     }
@@ -343,7 +378,7 @@ footer>p>a:hover{
     }
 
 
-    .social>div{
+    #social>div{
         width: 50%;
         font-size: 2rem;
         text-align: justify;
@@ -363,5 +398,8 @@ footer>p>a:hover{
         font-weight: 700;
     }
 
+    canvas {
+        display: block;
+    }
 
 }
