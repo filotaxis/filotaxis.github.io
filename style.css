@@ -301,12 +301,10 @@ footer>p>a:hover{
         justify-content: center;
         align-items: center;
         width: 100%;
-        /* border: 2px solid red; */
         font-size: 1.8rem;
     }
 
     nav>ul{
-        /* border: 2px solid green; */
         width: 70%;
         display: flex;
         justify-content: space-around;
@@ -343,7 +341,6 @@ footer>p>a:hover{
     }
 
     .landing{
-        height: 60%;
         display: flex;
         justify-content: space-around;
     }
@@ -443,7 +440,7 @@ footer>p>a:hover{
 
     .hello>.name{
             font-size: 6rem;
-            /* display: flex; */
+            display: flex;
             gap: 1rem;
         }
 }
